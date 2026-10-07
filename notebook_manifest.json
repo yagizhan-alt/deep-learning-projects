@@ -1,0 +1,146 @@
+[
+  {
+    "path": "autoencoders/01_autoencoders.ipynb",
+    "original_filename": "Intro_To_AutoEncoders_Compression_is_Everything!(2).ipynb",
+    "original_sha256": "24bd80def8b53f06a8489f3105ff2eb6b2eafe0e4534883749d6fd3b2bdb72dc",
+    "title": "Autoencoders",
+    "description": "Linear and convolutional autoencoders, MNIST reconstruction, latent-space visualization and PCA comparisons.",
+    "python_parse_flags": 0
+  },
+  {
+    "path": "autoencoders/02_variational_autoencoders.ipynb",
+    "original_filename": "Variational_AutoEncoders_(VAE)_Implementation(2).ipynb",
+    "original_sha256": "410d9a2ae80c6a4e9984973365c9187b8de492d6452f710f86baa17445576385",
+    "title": "Variational Autoencoders",
+    "description": "Reparameterization, reconstruction and KL losses, latent sampling and image generation.",
+    "python_parse_flags": 1
+  },
+  {
+    "path": "autoencoders/03_vqvae.ipynb",
+    "original_filename": "Vector_Quantized_Variational_AutoEncoder_(VQVAE)_From_Scratch(2).ipynb",
+    "original_sha256": "e9b864121b6ce41fd4a3a8186c943d6bb4fcd7d3bce54c1cfc2db28489cb3084",
+    "title": "VQ-VAE",
+    "description": "Codebook lookup, straight-through estimation, and linear and convolutional VQ-VAE components.",
+    "python_parse_flags": 1
+  },
+  {
+    "path": "autoencoders/04_residual_vector_quantization.ipynb",
+    "original_filename": "Residual_Vector_Quantization_(RVQ)_From_Scratch(2).ipynb",
+    "original_sha256": "da033207643782a0c78023810e45c2d299c0e0a1656a9a6903c6d6835283a71e",
+    "title": "Residual Vector Quantization",
+    "description": "Residual quantization using multiple codebooks and a linear reconstruction model.",
+    "python_parse_flags": 0
+  },
+  {
+    "path": "language-models/01_masked_language_modeling.ipynb",
+    "original_filename": "Intro_to_RoBERTa_+_Masked_Language_Modeling_Playing_Mad_Libs_Leads_to_Intelligence!(2).ipynb",
+    "original_sha256": "598d72111ff82c180858b36526413b24cf3ec937b003f4cf201f12952e2c7fdb",
+    "title": "Masked Language Modeling",
+    "description": "Tokenization, masking, self-attention and a compact RoBERTa-style model.",
+    "python_parse_flags": 0
+  },
+  {
+    "path": "language-models/02_roberta_pretraining.ipynb",
+    "original_filename": "Lets_Reproduce_RoBERTa_from_Scratch!(2).ipynb",
+    "original_sha256": "bb9cd0402bc01eb33963e7cf1ba62d17686cec1e0921e6681b16622a52d32d29",
+    "title": "RoBERTa Pretraining",
+    "description": "Data preparation, modular encoder components, masked language modeling and Accelerate training code.",
+    "python_parse_flags": 1
+  },
+  {
+    "path": "vision/vision_transformer.ipynb",
+    "original_filename": "Lets_Reproduce_the_Vision_Transformer_on_ImageNet(2).ipynb",
+    "original_sha256": "0b2af765e58a583868093cbc23322f4edf95828413ce45a426ccfe24117da475",
+    "title": "Vision Transformer",
+    "description": "Patch embeddings, transformer encoder blocks, augmentation and ImageNet training code.",
+    "python_parse_flags": 0
+  },
+  {
+    "path": "vision-language/llama4_vlm_moe.ipynb",
+    "original_filename": "Llama_4_From_Scratch_in_PyTorch_Vision_Language_Models_+_MoE(2).ipynb",
+    "original_sha256": "4295ddf196bd6f648b8bb76fbfcfd0f57a549e453b136220a17d3ff6f3c2d1e2",
+    "title": "Llama 4-style VLM and MoE",
+    "description": "Text and vision components, rotary embeddings, KV cache, expert routing and multimodal projection.",
+    "python_parse_flags": 0
+  },
+  {
+    "path": "parameter-efficient-finetuning/lora.ipynb",
+    "original_filename": "LoRA_From_Scratch_Finetuning_Large_Models_for_Cheaper(2).ipynb",
+    "original_sha256": "63cfe4fd6dbe9753b57f9c003a06fc19c1649cc64d970ea89e7760a8ed003847",
+    "title": "LoRA",
+    "description": "Low-rank adapters for linear, embedding and convolution layers, with model wrapping and adapter configuration.",
+    "python_parse_flags": 1
+  },
+  {
+    "path": "gpu-kernels/01_annotated_flash_attention.ipynb",
+    "original_filename": "The_Annotated_Flash_Attention(1).ipynb",
+    "original_sha256": "4c2caeca5bf91547f1d14dafd8b4edb71effa6bb7a4c3b867fd4d72a9fdbac2c",
+    "title": "Annotated FlashAttention",
+    "description": "PyTorch reference code exploring online softmax and blockwise attention forward and backward passes.",
+    "python_parse_flags": 0
+  },
+  {
+    "path": "gpu-kernels/02_vector_addition.ipynb",
+    "original_filename": "triton_vector_addition(1).ipynb",
+    "original_sha256": "3f41a41b52bb69f8666420d942097add273880e109d18d27a922d8c48f0374be",
+    "title": "Triton Vector Addition",
+    "description": "Elementwise and blocked vector addition, launch grids and timing examples.",
+    "python_parse_flags": 1
+  },
+  {
+    "path": "gpu-kernels/03_naive_matmul.ipynb",
+    "original_filename": "Triton_Naive_Matrix_Multiplication(1).ipynb",
+    "original_sha256": "998645ee6d3c64da4fb23db08017b77005c123fc661eca8855a353284d9c1227",
+    "title": "Triton Naive Matrix Multiplication",
+    "description": "Scalar dot-product pseudocode and a basic Triton matrix multiplication kernel.",
+    "python_parse_flags": 0
+  },
+  {
+    "path": "gpu-kernels/04_blocked_matmul.ipynb",
+    "original_filename": "Triton_Blocked_Matrix_Multiplication___A_MyTorch_Sidequest!(1).ipynb",
+    "original_sha256": "eb0ff4809d647f42e178ae415bde8fec6ede43034c5d7336e745c2e41af59f2a",
+    "title": "Triton Blocked Matrix Multiplication",
+    "description": "Tiled matrix multiplication and autotuning configuration code.",
+    "python_parse_flags": 1
+  },
+  {
+    "path": "gpu-kernels/05_grouped_matmul.ipynb",
+    "original_filename": "Triton_Grouped_Matrix_Multiplication_(Almost_CUDA_Performance!)___A_MyTorch_Sidequest(1).ipynb",
+    "original_sha256": "0f560081dc1746c69c8c1325e203f1ca06597cc1ff9c2a373765c62fb0d25d04",
+    "title": "Triton Grouped Matrix Multiplication",
+    "description": "Grouped tile ordering, autotuning, correctness-test code and benchmark scaffolding.",
+    "python_parse_flags": 2
+  },
+  {
+    "path": "gpu-kernels/06_softmax.ipynb",
+    "original_filename": "Triton_Softmax_Kernel___A_MyTorch_Sidequest(1).ipynb",
+    "original_sha256": "016ec3a30b7dad17d76be01bd2b70c4fbf312a25a908da514399e9be7d667cd7",
+    "title": "Triton Softmax",
+    "description": "Row-wise softmax forward and backward kernels and DLPack wrappers.",
+    "python_parse_flags": 0
+  },
+  {
+    "path": "gpu-kernels/07_layernorm.ipynb",
+    "original_filename": "Triton_Layernorm_Kernel___A_MyTorch_Sidequest(1).ipynb",
+    "original_sha256": "55f5e0cd5762103203804bda2908f83875c97b0a3923b239279c0cc006872c12",
+    "title": "Triton LayerNorm",
+    "description": "Layer normalization forward and backward kernel implementations.",
+    "python_parse_flags": 1
+  },
+  {
+    "path": "gpu-kernels/08_embedding_atomic_sum.ipynb",
+    "original_filename": "Triton_Embedding_Kernel_and_Atomic_Sum___A_MyTorch_Sidequest(1).ipynb",
+    "original_sha256": "c9c197dfb78b2803c73ec60010764d7082da9074b571ff242f122d511cf9fb33",
+    "title": "Triton Embedding and Atomic Sum",
+    "description": "Embedding lookup and backward accumulation with atomic addition.",
+    "python_parse_flags": 0
+  },
+  {
+    "path": "gpu-kernels/09_flash_attention.ipynb",
+    "original_filename": "Triton_Flash_Attention_From_Scratch___A_MyTorch_Sidequest(1).ipynb",
+    "original_sha256": "2939326c3b33228ea6a205a6812d96903ebfac46dfd429db333ccf1b4e3f9f36",
+    "title": "Triton FlashAttention",
+    "description": "Attention forward and backward kernels, causal masking and grouped-query head handling.",
+    "python_parse_flags": 2
+  }
+]
