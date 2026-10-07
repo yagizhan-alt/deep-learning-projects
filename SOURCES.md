@@ -22,3 +22,7 @@ This inventory preserves the original upload names. It is not a complete attribu
 | [Triton LayerNorm](gpu-kernels/07_layernorm.ipynb) | `Triton_Layernorm_Kernel___A_MyTorch_Sidequest(1).ipynb` |
 | [Triton Embedding and Atomic Sum](gpu-kernels/08_embedding_atomic_sum.ipynb) | `Triton_Embedding_Kernel_and_Atomic_Sum___A_MyTorch_Sidequest(1).ipynb` |
 | [Triton FlashAttention](gpu-kernels/09_flash_attention.ipynb) | `Triton_Flash_Attention_From_Scratch___A_MyTorch_Sidequest(1).ipynb` |
+| [PaliGemma-style Vision-Language Model](vision-language/paligemma_from_scratch.ipynb) | `coding a multimodal (vision) language model from scratch in pytorch with full explanation.ipynb` |
+| [FlashAttention with Autograd](gpu-kernels/10_flash_attention_autograd.ipynb) | `flash_attention.ipynb` |
+| [Llama 2 from Scratch](language-models/03_llama2_from_scratch.ipynb) | `llma_2_from_scratch.ipynb` |
+| [LoRA on MNIST with Parameterization](parameter-efficient-finetuning/lora_mnist_parameterization.ipynb) | `lora.ipynb` |

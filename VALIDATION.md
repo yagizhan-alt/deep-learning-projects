@@ -2,7 +2,7 @@
 
 Review date: 2026-10-07. Scope: notebook JSON parsing, code/markdown preservation, Python AST parsing of code cells, and a limited review of visible implementation blockers. No notebooks were executed, dependencies installed, datasets downloaded, or GPU benchmarks run.
 
-All 18 notebook files parsed as JSON. All code and markdown source cells match the corresponding uploads. Outputs, execution counts and transient notebook metadata were removed from the published copies.
+All 22 notebook files parsed as JSON. All code and markdown source cells match the corresponding uploads. Outputs, execution counts and transient notebook metadata were removed from the published copies.
 
 ## Python parsing flags
 
@@ -22,6 +22,9 @@ Cell numbers are one-based and include markdown cells. Lines are relative to the
 | [Triton FlashAttention](gpu-kernels/09_flash_attention.ipynb) | 7 | 81 | invalid syntax. Perhaps you forgot a comma? |
 | [Triton FlashAttention](gpu-kernels/09_flash_attention.ipynb) | 8 | 17 | invalid syntax |
 
+| [PaliGemma-style Vision-Language Model](vision-language/paligemma_from_scratch.ipynb) | 43 | 13 | invalid syntax |
+| [FlashAttention with Autograd](gpu-kernels/10_flash_attention_autograd.ipynb) | 3 | 14 | invalid syntax |
+
 ## Other observed blockers
 
 - Introductory RoBERTa: `special_tokens_dict` is defined, but `special_token_dict` is referenced.
@@ -35,3 +38,7 @@ Cell numbers are one-based and include markdown cells. Lines are relative to the
 - LayerNorm: the backward wrapper has `gamma-None` in the function signature.
 
 This is a limited static review, not an exhaustive defect list. Next validation should fix blockers, check small CPU-compatible components, compare GPU outputs and gradients against PyTorch, and record measured results with hardware and dependency versions.
+
+## Additional notebook import
+
+Four notebooks were added with code and markdown preserved and outputs cleared. The PaliGemma-style notebook needs its referenced modules, pretrained weights and an input image; the opening contrastive-learning snippet is pseudocode and the last cell contains a shell script. Llama 2 needs checkpoint/tokenizer paths and the referenced model module. The additional FlashAttention notebook contains a syntax error and a `float["-inf"]` expression in test code. The MNIST LoRA notebook passed the limited Python parsing check; runtime behavior remains unverified.

@@ -45,3 +45,9 @@ Requires a supported NVIDIA GPU, CUDA-compatible PyTorch and Triton. Some notebo
 Open the notebook in JupyterLab or a suitable GPU notebook environment and inspect its configuration before execution. These are learning implementations; some cells are incomplete or require corrections. See [validation notes](../VALIDATION.md).
 
 Original upload titles are recorded in [SOURCES.md](../SOURCES.md). Exact tutorial/repository attribution and the distinction between reproduced code and personal extensions remain to be documented by the author.
+
+## [FlashAttention with Autograd](10_flash_attention_autograd.ipynb)
+
+Triton forward/backward attention kernels, a custom autograd wrapper and comparison-test code.
+
+Requires a compatible NVIDIA GPU, PyTorch and Triton. Contains a Python parsing error and a `float["-inf"]` expression in reference-test code. Numerical comparisons have not been executed.

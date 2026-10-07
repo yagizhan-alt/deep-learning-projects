@@ -13,3 +13,9 @@ Requires PyTorch, transformers, and safetensors. The final demonstration ends wi
 Open the notebook in JupyterLab or a suitable GPU notebook environment and inspect its configuration before execution. These are learning implementations; some cells are incomplete or require corrections. See [validation notes](../VALIDATION.md).
 
 Original upload titles are recorded in [SOURCES.md](../SOURCES.md). Exact tutorial/repository attribution and the distinction between reproduced code and personal extensions remain to be documented by the author.
+
+## [LoRA on MNIST with Parameterization](lora_mnist_parameterization.ipynb)
+
+Low-rank matrix factorization and SVD, PyTorch parameterization, MNIST classifier adaptation, and enabling/disabling adapters.
+
+Requires PyTorch, torchvision, NumPy, matplotlib and tqdm. Training and adapter comparison examples are included but have not been executed during this import.

@@ -1,6 +1,6 @@
 # Deep Learning Projects
 
-A learning portfolio by **Yağızhan Dağ**, exploring deep learning models and GPU programming through 18 PyTorch and Triton notebooks.
+A learning portfolio by **Yağızhan Dağ**, exploring deep learning models and GPU programming through 22 PyTorch and Triton notebooks.
 
 The collection covers representation learning, language and vision models, parameter-efficient fine-tuning, and attention kernels. It documents implementation practice and work in progress.
 
@@ -9,11 +9,11 @@ The collection covers representation learning, language and vision models, param
 | Area | Notebooks | Topics |
 | --- | ---: | --- |
 | [Autoencoders](autoencoders/) | 4 | AE, VAE, VQ-VAE, residual vector quantization |
-| [Language models](language-models/) | 2 | Masked language modeling and RoBERTa pretraining |
+| [Language models](language-models/) | 3 | Masked language modeling, RoBERTa pretraining and Llama 2 |
 | [Computer vision](vision/) | 1 | Vision Transformer and ImageNet training code |
-| [Vision-language models](vision-language/) | 1 | Llama 4-style components, multimodal projection and MoE |
-| [Parameter-efficient fine-tuning](parameter-efficient-finetuning/) | 1 | LoRA adapters and model wrapping |
-| [GPU kernels](gpu-kernels/) | 9 | FlashAttention, Triton matmul, softmax, LayerNorm and embeddings |
+| [Vision-language models](vision-language/) | 2 | Llama 4-style components, PaliGemma, multimodal projection and MoE |
+| [Parameter-efficient fine-tuning](parameter-efficient-finetuning/) | 2 | LoRA adapters, model wrapping and MNIST parameterization |
+| [GPU kernels](gpu-kernels/) | 10 | FlashAttention, Triton matmul, softmax, LayerNorm and embeddings |
 
 ## Reading and running
 

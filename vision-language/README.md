@@ -13,3 +13,9 @@ Requires PyTorch. This is an incomplete architecture study. The final conditiona
 Open the notebook in JupyterLab or a suitable GPU notebook environment and inspect its configuration before execution. These are learning implementations; some cells are incomplete or require corrections. See [validation notes](../VALIDATION.md).
 
 Original upload titles are recorded in [SOURCES.md](../SOURCES.md). Exact tutorial/repository attribution and the distinction between reproduced code and personal extensions remain to be documented by the author.
+
+## [PaliGemma-style Vision-Language Model](paligemma_from_scratch.ipynb)
+
+SigLIP vision encoder, Gemma decoder, multimodal projection, image processing, KV cache and inference code.
+
+Requires PyTorch, transformers, Pillow, NumPy, safetensors and fire. Assemble the referenced Python modules, configure image paths and supply compatible model weights/tokenizer. The opening CLIP-style snippet is illustrative pseudocode, and the final cell is a shell launch script.

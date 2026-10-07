@@ -142,5 +142,37 @@
     "title": "Triton FlashAttention",
     "description": "Attention forward and backward kernels, causal masking and grouped-query head handling.",
     "python_parse_flags": 2
+  },
+  {
+    "path": "vision-language/paligemma_from_scratch.ipynb",
+    "original_filename": "coding a multimodal (vision) language model from scratch in pytorch with full explanation.ipynb",
+    "original_sha256": "af021b40b6fe040525c5be218cb38e71cac1cc2e82d7bca1a15f148cb35bab48",
+    "title": "PaliGemma-style Vision-Language Model",
+    "description": "SigLIP vision encoder, Gemma decoder, multimodal projection, image processing, KV cache and inference code.",
+    "python_parse_flags": 1
+  },
+  {
+    "path": "gpu-kernels/10_flash_attention_autograd.ipynb",
+    "original_filename": "flash_attention.ipynb",
+    "original_sha256": "41e77322a6355adfbc009e77c0b845279b7c7127abb8bcd8180b189bf02c36d7",
+    "title": "FlashAttention with Autograd",
+    "description": "Triton forward/backward attention kernels, a custom autograd wrapper and comparison-test code.",
+    "python_parse_flags": 1
+  },
+  {
+    "path": "language-models/03_llama2_from_scratch.ipynb",
+    "original_filename": "llma_2_from_scratch.ipynb",
+    "original_sha256": "a1d6ea70b7dbfaa9ff9a011fcdac8083b81f04a34371e248631e618f7b2dd021",
+    "title": "Llama 2 from Scratch",
+    "description": "Decoder architecture, RMSNorm, rotary embeddings, grouped-query attention, KV cache and text generation.",
+    "python_parse_flags": 0
+  },
+  {
+    "path": "parameter-efficient-finetuning/lora_mnist_parameterization.ipynb",
+    "original_filename": "lora.ipynb",
+    "original_sha256": "58a8e73a0f1ab2aab1b80a6c50f6935ab45ed9d1cedbfd865f3d8bc4acb15a69",
+    "title": "LoRA on MNIST with Parameterization",
+    "description": "Low-rank matrix factorization and SVD, PyTorch parameterization, MNIST classifier adaptation, and enabling/disabling adapters.",
+    "python_parse_flags": 0
   }
 ]
